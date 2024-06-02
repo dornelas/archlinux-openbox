@@ -32,6 +32,10 @@ chmod +x ~/.xinitrc
 mkdir -p ~/.config/openbox
 cp files/home/user/_config/openbox/* ~/.config/openbox/
 
+# aplicar tema no openbox
+mkdir -p ~/.themes
+cp -r files/home/user/_themes/* ~/.themes
+
 # habilitar o slim
 sudo systemctl enable slim
 
