@@ -28,9 +28,9 @@ sudo pacman -S vim net-tools zip unzip tar unrar curl wget cronie xorg xorg-xini
 cp files/home/user/_xinitrc ~/.xinitrc
 chmod +x ~/.xinitrc
 
-# configurar o openbox
-mkdir -p ~/.config/openbox
-cp files/home/user/_config/openbox/* ~/.config/openbox/
+# aplicar configuracoes
+mkdir -p ~/.config
+cp -r files/home/user/_config/* ~/.config/
 
 # aplicar tema no openbox
 mkdir -p ~/.themes
