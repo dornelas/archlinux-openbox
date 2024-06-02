@@ -22,7 +22,7 @@ else
 fi
 
 # instalar pacotes
-sudo pacman -S vim net-tools zip unzip tar unrar curl wget cronie xorg xorg-xinit openbox thunar xterm slim tint2 networkmanager network-manager-applet ttf-dejavu ttf-liberation --needed --noconfirm
+sudo pacman -S vim net-tools zip unzip tar unrar curl wget cronie xorg xorg-xinit openbox thunar xterm slim tint2 networkmanager network-manager-applet ttf-dejavu ttf-liberation firefox --needed --noconfirm
 
 # configurar o xinit
 cp files/home/user/_xinitrc ~/.xinitrc
